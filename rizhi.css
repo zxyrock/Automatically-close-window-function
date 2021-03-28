@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+#box{
+	margin:0 auto;
+	width:1000px;
+}
+#box #header{
+	width:1000px;
+}
+#box #header #main{
+	width:1000px;
+	background-color:#FCF;
+}
+#box #header #main a{
+	font-size:18px;
+	font-family:"宋体";
+	line-height:30px;
+	display:block;
+	float:left;
+	margin:0 20px;
+	color:#008c8c;
+	font-weight:bolder;
+	padding:0 5px;
+}
+#box #header #main a:hover{
+	background-color:#F6F;
+	color:#F03;
+	border-radius:80px;	
+}
+#box #header #main .sousuo{
+	float:right;
+	line-height:30px;
+	padding-right:30px;
+}
+#box #header #main .sousuo .ming{
+	font-size:18px;
+	font-weight:700;
+	color:#008c8c;
+}
+#box #header #main .sousuo .suo{
+	padding:2px;
+}
+#box #contrainer{
+	width:1000px;
+	height:800px;
+	background-color:#CFF;
+	position:relative;
+	border-top:1px #999 dashed;
+}
+#box #contrainer .left{
+	width:200px;
+	height:800px;
+	position:absolute;
+	left:0;
+	top:0;	
+}
+#box #contrainer .left h1{
+	font-size:18px;
+	font-weight:bold;
+	text-decoration:underline;
+	padding-top:20px;
+	padding-left:20px;
+}
+#box #contrainer .left ul{
+	margin-left:35px;
+	margin-top:10px;
+}
+#box #contrainer .left ul li{
+	border-bottom:1px #999 dashed;
+	margin:5px 0;
+	width:150px;
+}
+#box #contrainer .center{
+	width:600px;
+	height:800px;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	background-color:#fff;
+	background-image:url(%E5%8D%83%E5%8F%8D%E7%94%B0.jpg);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	background-size:50%;
+}
+#box #contrainer .center h1,#box #contrainer .center p{
+	margin-left:30px;
+	line-height:1.3em;
+}
+#box #contrainer .center h1{
+	margin-top:30px;
+	font-size:22px;
+	color:#008c8c;
+	text-decoration:underline;
+	font-weight:bold;
+}
+#box #contrainer .center p{
+	margin:10px 30px;
+	font-size:17px;
+}
+#box #contrainer .right{
+	width:200px;
+	height:800px;
+	position:absolute;
+	right:0;
+	top:0;
+	text-align:center;
+}
+#box #contrainer .right .img{
+	margin-top:20px;
+	border:1px black solid;
+}
+#box #contrainer .right p{
+	font-size:16px;
+	line-height:25px;
+}
+#box #footer{
+	background-color:#F96;
+	color:#fff;
+	font-size:14px;
+	color:#fff;
+	line-height:30px;
+	text-align:center;
+}
